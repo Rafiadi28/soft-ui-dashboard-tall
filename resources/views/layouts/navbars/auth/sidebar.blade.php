@@ -373,16 +373,7 @@
       </ul>
     </div>
 
-    <div class="mx-4">
-      <!-- load phantom colors for card after: -->
-      <p
-        class="hidden after:bg-gradient-dark-gray after:bg-gradient-cyan after:bg-gradient-orange after:bg-gradient-lime after:bg-gradient-red after:bg-gradient-slate">
-      </p>
 
-      <!-- pro btn  -->
-      <a class="inline-block w-full px-6 py-3 my-4 font-bold text-center text-white uppercase align-middle transition-all ease-in border-0 rounded-lg select-none shadow-soft-md bg-150 bg-x-25 leading-pro text-size-xs bg-gradient-fuchsia hover:shadow-soft-2xl hover:scale-102"
-        href="https://www.creative-tim.com/product/soft-ui-dashboard-pro-tall" target="_blank">Upgrade to pro</a>
-    </div>
   </aside>
 
   <!-- end sidenav -->
