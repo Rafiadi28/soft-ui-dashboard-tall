@@ -10,7 +10,7 @@
                 <div class="flex-none w-auto max-w-full px-3">
                     <div
                         class="text-size-base ease-soft-in-out h-18.5 w-18.5 relative inline-flex items-center justify-center rounded-xl text-white transition-all duration-200">
-                        <img src="../assets/img/bruce-mars.jpg" alt="profile_image"
+                        <img src="../assets/img/logosmknu.png" alt="profile_image"
                             class="w-full shadow-soft-sm rounded-xl" />
                     </div>
                 </div>
