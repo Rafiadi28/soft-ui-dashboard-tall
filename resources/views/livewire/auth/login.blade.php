@@ -9,16 +9,10 @@
                             <div
                                 class="relative flex flex-col min-w-0 mt-32 break-words bg-transparent border-0 shadow-none rounded-2xl bg-clip-border">
                                 <div class="p-6 pb-0 mb-0 bg-transparent border-b-0 rounded-t-2xl">
-                                    <h3 class="relative z-10 font-bold text-transparent bg-gradient-cyan bg-clip-text">
-                                        Welcome back!</h3>
-                                    <p class="mb-0">Create a new acount<br></p>
-                                    <p class="mb-0">OR Sign in with these credentials:</p>
-                                    <p class="mb-0">Email: <b>admin@softui.com</b></p>
-                                    <p class="mb-0">Password: <b>secret</b></p>
+                                    <h3 class="relative flex z-10 font-bold text-transparent bg-gradient-cyan bg-clip-text justify-center">
+                                        <img class="rounded-full w-30 h-30" src="../assets/img/logosmknu.png" alt="main_logo">
                                 </div>
-
                                 <div class="flex-auto p-6">
-
                                     @if (Session::has('status'))
                                     <div id="alert"
                                         class="relative p-4 pr-12 mb-4 text-white border border-solid rounded-lg bg-gradient-dark-gray border-slate-100">
@@ -28,7 +22,7 @@
                                             <span aria-hidden="true" class="text-center cursor-pointer">&#10005;</span>
                                         </button>
                                     </div>
-    
+
                                     @endif
 
                                     <form wire:submit="login">
